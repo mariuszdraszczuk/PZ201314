@@ -1,0 +1,20 @@
+﻿klas 1
+stworzenie www 1
+interface graficzny aplikacji 1
+dokładny opis funkcjonalny 1
+
+
+przypadkow uzycia 2
+!stanow 2
+komponentow 2
+!wdrozenia 2
+
+
+!czynnosci 3
+!komunikacji 3
+sekwencji 3
+zaprojektoawnie bazy + stworzenie skryptu 3
+
+1 Ja
+2 Kodi
+3 Decu
