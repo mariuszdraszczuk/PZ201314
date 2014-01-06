@@ -1,7 +1,8 @@
-﻿klas 1
+﻿interface graficzny aplikacji 1
+klas 1
 stworzenie www 1
-interface graficzny aplikacji 1
 dokładny opis funkcjonalny 1
+
 
 
 przypadkow uzycia 2
