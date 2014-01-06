@@ -1,0 +1,116 @@
+#page {
+	width: 1000px;
+	background: #f0f0f0;
+	margin: 0 auto;
+}
+
+header {
+	width: 1000px;
+	float: right;
+}
+
+a#logo {
+	float: left;
+	margin-right: 40px;
+}
+
+#wyszuk {
+	width: 300px;
+	height: 35px;
+	border: 1px solid #002e5b;
+	font-family: Verdana;
+	font-size: 14pt;
+	color: #c0c0c0;
+}
+
+#przycisk {
+	width: 120px;
+	height: 30px;
+	border: 1px solid #00376f;
+	background: #00376f;
+	font-family: Verdana;
+	font-size: 14pt;
+	color: white;
+}
+
+#licytuj {
+	width: 120px;
+	height: 25px;
+	font-family: Tahoma;
+	font-size: 13pt;
+	background: #ffa275;
+	color: black;
+	border: 2px solid #ea4d00;
+}
+
+#teraz {
+	width: 120px;
+	height: 25px;
+	font-family: Tahoma;
+	font-size: 13pt;
+	background: #ffa275;
+	color: black;
+	border: 2px solid #ea4d00;
+}
+
+#lic {
+	width: 100px;
+	font-family: arial;
+	font-size: 12pt;
+	height: 20px;
+	border: 1px bolid black;
+}
+
+a {
+	text-decoration: none;
+	color: #00376f;
+}
+
+ul {
+	width: 210px;
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+ul li {
+	padding-left: 10px;
+	padding: 5px 5px;
+	width: 200px;
+	height: 30px;
+	border-left: 1px solid #00376f;
+	border-right: 1px solid #00376f;
+	font-family: Tahoma;
+	font-size: 14pt;
+}
+
+nav {
+	float: left;
+}
+
+#content {
+	float: left;
+	padding: 10px;
+}
+
+#main {
+	float: left;
+}
+
+footer {
+	clear: left;
+	padding: 5px;
+	font-family: Verdana;
+	font-size: 10pt;
+	color: white;
+	border: 1px solid #00376f;
+	background: #00376f;
+}
+
+#content {
+	font-family: Verdana;
+	font-size: 12pt;
+	color: black;
+}

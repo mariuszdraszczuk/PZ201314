@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+	<head>
+		<meta charset="windows-1250" />
+		<title>Shop24 - panel użytkownika</title>
+		<link rel="stylesheet" type="text/css" href="files/style.css" />
+		<script type="text/javascript" src="files/jquery-1.4.min.js"></script>
+		<script type="text/javascript" src="files/script.js"></script>
+	</head>
+	
+	<body>
+		<div id="page">
+			<header>
+				<a href="index.html" border="0" id="logo"><img src="logo.png" /></a>
+				<br /><br />		
+				<form id="szukaj">
+					<input type="text" name="szukaj" value="szukaj" id="wyszuk"/>
+					<input type="submit" name="submit" value="ZNAJDŹ" id="przycisk"/>
+				</form>
+			</header>
+			
+			<div id="main">
+			
+				<nav>
+					<ul>
+						<li style="background: #00376f; color: white; margin: 0 auto; text-align: center; height: 20px;">MENU</li>
+						<li style="border-top: 1px solid #00376f;" id="nav">
+							<a href="aukcje.html">Moje aukcje</a>
+						</li>
+						
+						<li id="nav">
+							<a href="dane.html">Moje dane</a>
+						</li>
+						
+						<li id="nav">
+							<a href="oferta.html">Dodaj/usuń ofertę</a>
+						</li>
+						
+						<li id="nav">
+							<a href="wygrane.html">Wygrane aukcje</a>
+						</li>
+						
+						<li id="nav">
+							<a href="wyloguj.html">Wyloguj</a>
+						</li>
+						
+						
+					</ul>
+				</nav>
+				
+				<div id="content">
+					<b>Panel administracyjny użytkownika</b>
+					<table border="1">
+					<tr><td>Data</td><td>Numer aukcji</td><td>Nazwa przedmiotu</td><td>Zakończono</td></tr>
+					<tr><td>01.01.2012r.</td><td>12365432345</td><td>Kotlet</td><td>Nie</td></tr>
+					<tr><td>21.01.2012r.</td><td>12265534545</td><td>Miś</td><td>Tak</td></tr>
+					<tr><td>01.01.2013r.</td><td>1256787542345</td><td>Kamera</td><td>Anulowano</td></tr>
+					</table>
+				</div>
+				
+			</div>
+			
+			<footer>
+			<b>Shop24</b> 2013 &copy; Wszelkie prawa zastrzeżone.
+			</footer>
+		</div>
+	</body>
+	
+</html>

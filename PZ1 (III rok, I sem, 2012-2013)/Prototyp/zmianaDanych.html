@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Shop24 - panel użytkownika</title>
+		<link rel="stylesheet" type="text/css" href="files/style.css" />
+		<script type="text/javascript" src="files/jquery-1.4.min.js"></script>
+		<script type="text/javascript" src="files/script.js"></script>
+	</head>
+	
+	<body>
+		<div id="page">
+			<header>
+				<a href="index.html" border="0" id="logo"><img src="logo.png" /></a>
+				<br /><br />		
+				<form id="szukaj">
+					<input type="text" name="szukaj" value="szukaj" id="wyszuk"/>
+					<input type="submit" name="submit" value="ZNAJDŹ" id="przycisk"/>
+				</form>
+			</header>
+			
+			<div id="main">
+			
+				<nav>
+					<ul>
+						<li style="background: #00376f; color: white; margin: 0 auto; text-align: center; height: 20px;">MENU</li>
+						<li style="border-top: 1px solid #00376f;" id="nav">
+							<a href="aukcje.html">Moje aukcje</a>
+						</li>
+						
+						<li id="nav">
+							<a href="dane.html">Moje dane</a>
+						</li>
+						
+						<li id="nav">
+							<a href="oferta.html">Dodaj/usuń ofertę</a>
+						</li>
+						
+						<li id="nav">
+							<a href="wygrane.html">Wygrane aukcje</a>
+						</li>
+                        <li id="nav">
+							<a href="ustawienia.html">Ustawienia</a>
+						</li>
+						
+						<li id="nav">
+							<a href="wyloguj.html">Wyloguj</a>
+						</li>
+						
+						
+					</ul>
+				</nav>
+				</div>
+				<div id="content">
+					
+                    <p> <strong>Panel administracyjny użytkownika - Zmiana Danych</strong> </p>
+                  <form action="" method="post" enctype="text/plain"><div>
+<!-- Podstawowe pole tekstowe -->
+Imię: <input name="Imię" /><br />
+Nazwisko: <input name="Nazwisko" /><br />
+Ulica: <input name="Ulica" /><br />
+Kod Pocztowy: <input name="KodPocztowy" /><br />
+Miast: <input name="Miasto" /><br />
+Telefon: <input name="Adres" /><br />
+                   
+                    
+                   
+				
+                    </form>
+                     </p>
+					<button value="">Zapisz</button>
+                    <button value="">Anuluj</button>
+
+					
+				</div>
+				
+			</div>
+			
+			<footer>
+			<b>Shop24</b> 2013 &copy; Wszelkie prawa zastrzeżone.
+			</footer>
+		</div>
+	</body>
+	
+</html>
