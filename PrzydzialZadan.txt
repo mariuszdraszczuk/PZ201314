@@ -5,7 +5,7 @@ dokładny opis funkcjonalny 1
 
 
 
-przypadkow uzycia 2
+                     przypadkow uzycia 2
 !stanow 2
 komponentow 2
 !wdrozenia 2
