@@ -1,0 +1,9 @@
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\bin\Release\QuickNote.exe
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\bin\Release\QuickNote.pdb
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Release\QuickNote.AddNoteView.resources
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Release\QuickNote.SettingsView.resources
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Release\QuickNote.TrayView.resources
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Release\QuickNote.Properties.Resources.resources
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Release\QuickNote.csproj.GenerateResource.Cache
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Release\QuickNote.exe
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Release\QuickNote.pdb

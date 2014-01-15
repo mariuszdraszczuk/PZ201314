@@ -13,9 +13,12 @@ namespace QuickNote
         [STAThread]
         static void Main()
         {
+            MainClass instance = new MainClass();
+
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new TrayView());
         }
     }
 }
