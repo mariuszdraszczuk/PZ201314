@@ -46,35 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddNoteView.cs">
+    <Compile Include="AddNoteForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddNoteView.Designer.cs">
-      <DependentUpon>AddNoteView.cs</DependentUpon>
+    <Compile Include="AddNoteForm.Designer.cs">
+      <DependentUpon>AddNoteForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Common.cs" />
+    <Compile Include="Connection.cs" />
     <Compile Include="MainClass.cs" />
-    <Compile Include="SettingsView.cs">
+    <Compile Include="Note.cs" />
+    <Compile Include="NotesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SettingsView.Designer.cs">
-      <DependentUpon>SettingsView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TrayView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TrayView.Designer.cs">
-      <DependentUpon>TrayView.cs</DependentUpon>
+    <Compile Include="NotesForm.Designer.cs">
+      <DependentUpon>NotesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AddNoteView.resx">
-      <DependentUpon>AddNoteView.cs</DependentUpon>
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrayForm.Designer.cs">
+      <DependentUpon>TrayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <EmbeddedResource Include="AddNoteForm.resx">
+      <DependentUpon>AddNoteForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SettingsView.resx">
-      <DependentUpon>SettingsView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TrayView.resx">
-      <DependentUpon>TrayView.cs</DependentUpon>
+    <EmbeddedResource Include="NotesForm.resx">
+      <DependentUpon>NotesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,6 +93,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrayForm.resx">
+      <DependentUpon>TrayForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

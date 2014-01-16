@@ -9,10 +9,9 @@ using System.Windows.Forms;
 
 namespace QuickNote
 {
-    public partial class TrayView : Form
+    public partial class TrayForm : Form
     {
-
-        public TrayView()
+        public TrayForm()
         {
             InitializeComponent();
             this.LostFocus += new EventHandler(MainView_LostFocus);
@@ -30,11 +29,7 @@ namespace QuickNote
         }
 
 
-        private void MainView_Resize(object sender, EventArgs e)
-        {
-            if (FormWindowState.Minimized == WindowState)
-                Hide();
-        }
+
 
         private void notifyIcon1_MouseClick(object sender, MouseEventArgs e)
         {
@@ -44,10 +39,18 @@ namespace QuickNote
             
         }
 
+
+        private void MainView_Resize(object sender, EventArgs e)
+        {
+            if (FormWindowState.Minimized == WindowState)
+                Hide();
+        }
+
+
         private void MainView_LostFocus(object sender, EventArgs e)
         {
-            Hide();
-            WindowState = FormWindowState.Minimized;
+            //Hide();
+            //WindowState = FormWindowState.Minimized;
         }
 
         private void MainView_Deactivate(object sender, EventArgs e)
@@ -61,9 +64,10 @@ namespace QuickNote
         {
             if (MainClass.instance.addNoteView == null)
             {
-                AddNoteView addNoteView = new AddNoteView();
+                AddNoteForm addNoteView = new AddNoteForm();
             }
 
+            MainClass.instance.addNoteView.setTextBackup();
             MainClass.instance.addNoteView.Show();
         }
 
@@ -79,15 +83,25 @@ namespace QuickNote
 
         private void button3_Click(object sender, EventArgs e)
         {
-
-
             if (MainClass.instance.settingsView == null)
             {
-                SettingsView settingsView = new SettingsView();
+                SettingsForm settingsView = new SettingsForm();
             }
             
             MainClass.instance.settingsView.Show();
             //TODO: niech przy kliknieciu sie nie zmienia pozycja
         }
+
+
+        private void ShareLink(object sender)
+        {
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //TODO
+        }
+
+
     }
 }

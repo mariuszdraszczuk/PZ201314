@@ -5,6 +5,6 @@ d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Debug\QuickNote.
 d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Debug\QuickNote.exe
 d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Debug\QuickNote.pdb
 d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Debug\QuickNote.csprojResolveAssemblyReference.cache
-d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Debug\QuickNote.AddNoteView.resources
-d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Debug\QuickNote.TrayView.resources
-d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Debug\QuickNote.SettingsView.resources
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Debug\QuickNote.AddNoteForm.resources
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Debug\QuickNote.SettingsForm.resources
+d:\GitHubRepo\PZ201314\QuickNoteApp\QuickNote\QuickNote\obj\x86\Debug\QuickNote.TrayForm.resources

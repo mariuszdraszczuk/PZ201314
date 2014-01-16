@@ -7,9 +7,14 @@ namespace QuickNote
 {
     public class MainClass
     {
-        public AddNoteView addNoteView;
-        public SettingsView settingsView;
-        public TrayView trayView;
+        public AddNoteForm addNoteView;
+        public SettingsForm settingsView;
+        public TrayForm trayView;
+        public NotesForm notesView;
+
+        public Connection connection;
+
+        private User currentUser;
 
         public static MainClass instance;
 
@@ -17,6 +22,5 @@ namespace QuickNote
         {
             instance = this;
         }
-
     }
 }

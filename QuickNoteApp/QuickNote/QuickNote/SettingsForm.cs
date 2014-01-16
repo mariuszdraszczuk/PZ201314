@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace QuickNote
 {
-    public partial class SettingsView : Form
+    public partial class SettingsForm : Form
     {
-        public SettingsView()
+        public SettingsForm()
         {
             InitializeComponent();
             MainClass.instance.settingsView = this;
@@ -38,7 +38,7 @@ namespace QuickNote
         {
             if (MainClass.instance.trayView == null)
             {
-                TrayView trayView = new TrayView();
+                TrayForm trayView = new TrayForm();
             }
 
             MainClass.instance.trayView.Show();
@@ -46,5 +46,35 @@ namespace QuickNote
             this.Hide();
             
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SettingsView_LostFocus(object sender, EventArgs e)
+        {
+            Hide();
+            //TODO: zapisywanie w internetach
+        }
+
+        private void SettingsView_Deactivate(object sender, EventArgs e)
+        {
+            Hide();
+            //TODO: zapisywanie w internetach
+        }
+
+        private void SettingsView_Resize(object sender, EventArgs e)
+        {
+            Hide();
+            //TODO: zapisywanie w internetach
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Hide();
+        }
+
+
     }
 }

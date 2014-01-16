@@ -18,7 +18,7 @@ namespace QuickNote
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TrayView());
+            Application.Run(new TrayForm());
         }
     }
 }

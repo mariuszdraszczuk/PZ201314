@@ -1,6 +1,6 @@
 ﻿namespace QuickNote
 {
-    partial class TrayView
+    partial class TrayForm
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrayView));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrayForm));
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.button4 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
@@ -46,6 +46,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // notifyIcon1
@@ -163,9 +164,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(19, 281);
+            this.button1.Location = new System.Drawing.Point(20, 247);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 28);
+            this.button1.Size = new System.Drawing.Size(199, 28);
             this.button1.TabIndex = 14;
             this.button1.Text = "+New Note";
             this.button1.UseVisualStyleBackColor = true;
@@ -180,12 +181,24 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "Aktualny";
             // 
-            // TrayView
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(20, 281);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(95, 28);
+            this.button5.TabIndex = 26;
+            this.button5.Text = "browse notes";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // TrayForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(236, 329);
+            this.ControlBox = false;
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
@@ -199,7 +212,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "TrayView";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "TrayForm";
             this.Text = "!quickNote";
             this.Deactivate += new System.EventHandler(this.MainView_Deactivate);
             this.Load += new System.EventHandler(this.MainView_Load);
@@ -225,6 +239,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button5;
     }
 }
 

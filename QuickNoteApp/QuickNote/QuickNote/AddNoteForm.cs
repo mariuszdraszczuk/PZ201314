@@ -9,26 +9,29 @@ using System.Windows.Forms;
 
 namespace QuickNote
 {
-    public partial class AddNoteView : Form
+    public partial class AddNoteForm : Form
     {
-        public AddNoteView()
+        private Note note;
+
+        public AddNoteForm()
         {
             InitializeComponent();
             MainClass.instance.addNoteView = this;
+            note = new Note("", "");
         }
 
         private void AddNoteView_Load(object sender, EventArgs e)
         {
         }
-
+        
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            //Hide();
         }
 
         private void AddNoteView_LostFocus(object sender, EventArgs e)
         {
-            Hide();
+            //Hide();
             //TODO: zapisywanie w internetach
         }
 
@@ -36,6 +39,23 @@ namespace QuickNote
         {
             Hide();
             //TODO: zapisywanie w internetach
+        }
+
+        private void AddNoteView_Resize(object sender, EventArgs e)
+        {
+            Hide();
+            //TODO: zapisywanie w internetach
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Text = note.noteText;
+            Hide();
+        }
+
+        public void setTextBackup()
+        {
+            note.noteText = richTextBox1.Text;
         }
 
     }
