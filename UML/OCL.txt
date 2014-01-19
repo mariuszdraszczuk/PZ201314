@@ -1,0 +1,12 @@
+context User inv :
+	userName <> '' and userEmail <> ''
+	
+
+context Note inv :
+	noteTitle <> ''
+	noteText <> ''
+	tagsList <> null
+	createDate <> null
+	
+context MainClass inv :
+	instance <> null
